@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote  name="Dhruv"
+                fetch="https://github.com/DhruvChhura" />
+
+        <project path="device/xiaomi/ysl" name="android_device_xiaomi_ysl" remote="Dhruv" revision="11" clone-depth="1" />
+        <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_ysl" remote="Dhruv" revision="eleven" clone-depth="1" />
+        <project path="vendor/xiaomi" name="android_vendor_xiaomi_ysl" remote="Dhruv" revision="11" clone-depth="1" />
+
+</manifest>
