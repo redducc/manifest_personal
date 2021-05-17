@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote  name="wave"
+		fetch="https://github.com/wave-project" />
+	<remote  name="jebiyeff"
+         	fetch="https://github.com/Jabiyeff" />
+	<remote  name="los"
+		fetch="https://github.com/LineageOS" />
+	<remote  name="Dhruv"
+		fetch="https://github.com/DhruvChhura"
+
+    # HALS
+    <remove-project name="android_hardware_qcom_audio" />
+    <remove-project name="android_hardware_qcom_display" />
+    <remove-project name="android_hardware_qcom_media" />
+    <remove-project name="hardware_qcom_wlan" />
+    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="jebiyeff" revision="caf-msm8996-r" clone-depth="1" />
+    <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="jebiyeff" revision="caf-msm8996-r" clone-depth="1" />
+    <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="wave" revision="r" clone-depth="1" />
+    <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="Dhruv" revision="11-caf" clone-depth="1" />
+</manifest>
