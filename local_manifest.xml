@@ -4,7 +4,7 @@
         <remote  name="sushmit"
                 fetch="https://github.com/sushmit1" />
 
-        <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="sushmit" revision="carbon" clone-depth="1" />
+        <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="sushmit" revision="r" clone-depth="1" />
         <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="sushmit" revision="eleven" clone-depth="1" />
         <project path="vendor/xiaomi" name="vendor_xiaomi_beryllium" remote="sushmit" revision="dot11" clone-depth="1" />
         <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common-beryllium" remote="sushmit" revision="dot11" clone-depth="1" />
