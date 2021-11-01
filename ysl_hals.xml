@@ -2,7 +2,9 @@
 <manifest>
 	<remote  name="gio"
 		fetch="https://github.com/ItsVixano" />
-
+    <remove-project name="hardware_qcom-caf_msm8996_display" />
+    <remove-project name="hardware_qcom-caf_msm8996_audio" />
+    <remove-project name="hardware_qcom-caf_msm8996_media" />
     <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf" remote="gio" revision="display-msm8996-s" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf" remote="gio" revision="media-msm8996-s" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf" remote="gio" revision="audio-msm8996-s" clone-depth="1" />
